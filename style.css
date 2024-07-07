@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+}
+header{
+    height:800px;
+    background-image: url(./images/developer.png),url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    /* margin-left: 910px; */
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-position: top left, bottom right;
+    
+}
+/* Shared Classes */
+.text-primary{
+    color: rgba(87, 18, 235, 0.885);
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn{
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 450;
+    color: #ffffff;
+    background-color: rgba(123, 0, 255, 0.682);
+    border-radius: 6px;
+}
+
+/* nav styling */
+nav{
+    margin-top:50px;
+    display:flex;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+nav ul{
+    display:flex;
+    gap:70px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+nav ul li{
+    list-style: none;
+    
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.8rem;
+
+
+}
+
+
+.navTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    padding-left: 280px;
+}
+
+
+/* banner styling */
+
+.banner{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 280px;
+    
+}
+
+.banner-greetings{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    /* padding-left: 80px; */
+    padding-bottom: 20px;
+    color: rgba(48, 48, 48, 0.795);
+}
+
+.banner-name{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    /* padding-left: 80px; */
+    padding-bottom: 20px;
+}
+
+.banner-desc{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    /* padding-left: 80px; */
+    padding-bottom: 20px;
+    color: #474747;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.btn-contact{
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 450;
+    color: rgba(123, 0, 255, 0.682);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.img-container{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 70%;
+    /* border: 2px solid black; */
+    padding: 100px;
+    background-color: rgba(250, 235, 215, 0.26);
+    border-radius: 5px;
+    
+
+}
+#about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.abt-info{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-items: center;
+    width: 70%;
+    padding-left: 100px;
+}
+
+.about1{
+    text-align: center;
+    
+}
+
+.about-desc{
+    width: 60%;
+}
+
+.about-head{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    /* padding-left: 80px; */
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+}
+
+.about-desc{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    /* padding-left: 80px; */
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    color:#5f5f5f;
+    
+}
+
+.names{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+    color:#474747;
+    align-items: center;
+}
+
+.infos{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+    color:#474747;
+    align-items: center;
+}
+
+.what-i-do-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+    width:70%;
+    /* border: 2px solid rgb(15, 86, 2); */
+}
+
+
+
+.what-i-do{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    /* border: 2px solid black; */
+}
+
+.title-what-i-do{
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 70px;
+    /* border: 2px solid rgb(210, 12, 12); */
+    padding-right: 30px;
+}
+
+.desc-what-i-do{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* padding-top: 70px; */
+    color: #626161;
+    /* border: 2px solid rgb(66, 152, 0); */
+    margin-left: 250px;
+    line-height: 30px;
+   
+}
+
+/* card stylings */
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid #f9f6f6; */
+    /* gap:30px; */
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.card1{
+    display: flex;
+    /* border:2px solid rgb(252, 244, 0); */
+    flex-direction: column;
+    width:23%;
+    gap:20px;
+    box-shadow: 10px 10px 10px 10px #f9f6f6;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.img-container{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.card-title{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.card-desc{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #474747;
+    line-height: 35px;
+}
+
+/* Resume Section Styling */
+
+.resumeContainer{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    /* border:3px solid green; */
+    margin-left: 500px;
+    gap:30px;
+    margin-bottom: 100px;
+   
+}
+
+.resumeTitle{
+    padding-left: 200px;
+    
+}
+.firstDiv{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.rTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    
+    
+}
+
+.resumeTitle{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.eTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.dTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.uTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+
+
+
+.cTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+
+.jTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.exDesc{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color:#474747;
+    
+}
+
+.edDesc{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color:#474747;
+    
+}
+
+.desc{
+    padding-bottom:20px;
+}
+
+.educationHeader, .experienceHeader{
+    padding-bottom: 20px;
+}
+
+.degree, .jobTitle{
+    padding-top:20px;
+}
+
+
+.education1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.experience1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    gap: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.btn-containerResume{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-right:50px;
+}
